@@ -1,2 +1,4 @@
-# elm-websocket
-An Elm wrapper for browser WebSockets
+Elm WebSocket Example
+=====================
+
+A websocket example using Elm
