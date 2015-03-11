@@ -7,7 +7,7 @@ var server = ws.createServer(function (conn) {
       var now = new Date().toJSON();
       conn.sendText(now);
       console.log("sent: " + now);
-    }, 10000);
+    }, 998);
 
     conn.on("text", function (str) {
         console.log("Received "+str)
