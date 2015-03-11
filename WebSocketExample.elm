@@ -14,4 +14,4 @@ connection = WebSocket.connect "ws://localhost:8001"
 
 writeMessage : String -> Html
 writeMessage msg =
-  h1 [] [text ("server response: " ++ msg)]
+  h1 [] [text ("server sent: " ++ msg)]
