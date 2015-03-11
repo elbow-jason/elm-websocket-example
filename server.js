@@ -1,6 +1,6 @@
 var ws = require("nodejs-websocket")
 
-// Scream server example: "hi" -> "HI!!!"
+console.log("Serving Every Second via Websockets on ws://localhost:8001");
 var server = ws.createServer(function (conn) {
     console.log("New connection")
     var time_ping  = setInterval(function(){
